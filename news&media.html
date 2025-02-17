@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from peacefulqode.co.in/themes/textica/html/standard.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Oct 2024 09:35:05 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Polymers</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logos/loader.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Custom Scrollbar CSS -->
+    <link rel="stylesheet" href="css/simplebar.min.css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="css/animations.min.css">
+    <!-- Magnefic Popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
+    <!-- Icons CSS -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css">
+    <!--  Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--  Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+    .custom-masonry {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .custom-masonry-item {
+        width: 50%;
+        padding: 10px; 
+        
+    }
+
+    .custom-portfolio-img{
+        width: 300px !;
+    }
+
+    @media(max-width:320px){
+        .blank{
+            height: 20px;
+        }
+    }
+
+    @media (max-width: 576px){
+        .col-lg-12{
+            flex-direction: column;
+        }
+        video{
+            margin-left: 20px;
+            height: 200px;
+        }
+        .video-container {
+            margin-top: 0px;
+        }
+        #gallery{
+            margin-top: 50px;
+        }
+        
+    }
+    
+    
+    @media (min-width: 576px) { /* Tablets */
+        .custom-masonry-item {
+            width: 25%; 
+            padding: 10px;
+        }
+        .col-lg-12{
+            flex-direction: column;
+        }
+        .blank{
+            padding-top: 70px;
+            height: 110px;
+        }
+        video{
+            margin-left: 35px;
+        }
+        /* #gallery{
+            margin-top: 30px;
+        }
+        */
+        
+    }
+    
+    @media (min-width: 992px) { /* Laptops */
+        .custom-masonry-item {
+            width: 25%; /* 4 items per row */
+            padding: 10px;
+        }
+        .col-lg-12{
+            flex-direction: row;
+        }
+        .blank{
+            padding-top: 130px;
+        }
+        video{
+            margin-left: 25px;
+            height: 380px;
+        }
+        .video-container{
+            margin-left: 35px;
+        }
+        #gallery{
+            margin-top: 0px;
+        }
+    }
+
+    .active {
+        color:#F56800 !important;
+    }
+ 
+   .scrollable {
+      width: 100%;     
+      height: 400px;    
+      overflow: auto;   
+    }
+
+    
+    </style>
+</head>
+
+<body>
+
+    <!-- Loading -->
+    <div id="pq-loading">
+        <div id="pq-loading-center">
+            <img src="images/logos/loader.png" alt="loading">
+        </div>
+    </div>
+    <!-- Loading -->
+    <!-- Header -->
+    <header id="pq-header" class="pq-header-style-2 pq-has-sticky">
+        <div class="pq-top-header top-style-1">
+            <div class="container-fluid">
+                <div class="row flex-row-reverse">
+                    <div class="col-md-6 text-right">
+                        <div class="pq-header-social text-right">
+                            <ul>
+                                <li><a href="https://www.facebook.com/pure.polymer.2024/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/106093977/admin/dashboard/"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pq-header-contact">
+                            <ul>
+                                <li>
+                                    <a href="tel:+20 100-275-8604">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+20 100-275-8604</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@purepolymer.co">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>info@purepolymer.co</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pq-bottom-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="index.html">
+                                <img class="img-fluid logo" src="images/logos/loader.png" alt="purepolymer">
+                            </a>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div id="pq-menu-contain" class="pq-menu-contain">
+                                    <ul id="pq-main-menu" class="navbar-nav ml-auto">
+                                        <li class="menu-item current-menu-item menu-item-has-children">
+                                            <a href="index.html">Home</a>
+                                           
+                                        </li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="about-us.html">About Us</a>
+                                        </li>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="#">Products</a>
+                                        <i class="fa fa-chevron-down pq-submenu-icon"></i>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="agro-commodities.html">Agro Commodities</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="chemical.html">Chemicals</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="fertilizer.html">Fertilizers</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="fillers.html">Fillers</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="lubricants.html">Lubricants</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="masterbatch.html">Master Batch</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="petrochemical.html">Petrochemicals</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="polymers.html">Polymers</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="steels.html">Steels</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="news&media.html">Gallery</a>
+                                          
+
+                                        </li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="presance.html">Our Presence</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="contact.html">
+                                                career</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="enquiry.html">
+                                                Enquiry</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="map.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+    <div class="blank"></div>
+
+    <div style="background-color: beige;">
+        <div class="row" style="display: flex; padding-bottom: 25px;">
+            <div style="color: white; background-color: #49a1c9;  font-size: 35px; text-align: center;" id="gallery">
+                <p style="margin-bottom: 0px;"><b>Gallery</b></p>
+            </div>
+            <div class="col-lg-12" style="display: flex; padding-right: 0px;">
+                <div class="col-lg-6" style="display: flex; background-color: beige;">
+                    <div class="video-container">
+                        <h4 style="padding: 5px; margin-left: 25px; margin-top: 5px;">Video</h4>
+                        <video controls style=" margin-right: 25px;  width: 90%;">
+                          <source src="/images/background-images/lubricant_video (1).mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="col-lg-6 scrollable" style="display: flex; width: 100%; height: 450px; background-color:beige;">
+                    <section class="standard" style="padding: 0px;margin-left: 15px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="custom-filters d-none">
+                                        <div class="filters custom-filters-button-group">
+                                            <ul>
+                                                <li class="active pq-filter-btn" data-filter="*">All</li>
+                                                <li class="pq-filter-btn" data-filter=".8">Accessories</li>
+                                                <li class="pq-filter-btn" data-filter=".4">Craft Decor</li>
+                                                <li class="pq-filter-btn" data-filter=".6">Ethnic Clothing</li>
+                                                <li class="pq-filter-btn" data-filter=".5">Ethnic Textile</li>
+                                                <li class="pq-filter-btn" data-filter=".7">Traditional Crafts</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <h4 style="margin-top: 15px; margin-left: 5px;">Product Photos</h4>
+                                    <div class="custom-masonry" data-next_items="3" data-initial_items="6" style="margin-top: 10px;">
+                                        <div class="grid-sizer custom-col-3"></div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/Carton.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/Carton.webp" alt=""></a>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a  href="/images/News&MediaImages/D O 15W40.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/D O 15W40.webp" alt=""></a>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                        <a href="/images/News&MediaImages/Diesel EO drum.webp"> <img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/Diesel EO drum.webp" alt=""></a>
+                                                    
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                        <a href="/images/News&MediaImages/DO 15W40 5L Back.webp"> <img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/DO 15W40 5L Back.webp" alt=""></a>
+                                                       
+                                                   
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                        <a href="/images/News&MediaImages/IMG_2854.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/IMG_2854.webp" alt=""></a>
+                                                        
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                        <a href="/images/News&MediaImages/IMG_5043.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/IMG_5043.webp" alt=""></a>
+                                                        
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                        <a href="/images/News&MediaImages/IMG_5045.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/IMG_5045.webp" alt=""></a>
+                                                        
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                        <a href="/images/News&MediaImages/IMG_5047.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/IMG_5047.webp" alt=""></a>
+                                                        
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                        <a href="images/News&MediaImages/IMG_6406.webp"> <img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/IMG_6406.webp" alt=""></a>
+                                                       
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                        <a href="/images//News&MediaImages/IMG_6418.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/IMG_6418.webp" alt=""></a>
+                                                        
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/Lotus BF 250ml FRN.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/Lotus BF 250ml FRN.webp" alt=""></a>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/Lotus GO 1L Front.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/Lotus GO 1L Front.webp" alt=""></a>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/Lotus GO 4L Front.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/Lotus GO 4L Front.webp" alt=""></a>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                
+                                                       <a href="/images/News&MediaImages/Lotus.webp"> <img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/Lotus.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/P1010765_11zon.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/P1010765_11zon.webp" alt=""></a>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                    <a href="/images/News&MediaImages/P1010785_11zon.webp"> <img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/P1010785_11zon.webp" alt=""></a>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/SAE 5W40_11zon.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/SAE 5W40_11zon.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/10.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/10.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                         <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/11.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/11.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                         </div>
+                                        </div> <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/12.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/12.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/14.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/14.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/15.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/15.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/16.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/16.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/17.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/17.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/19.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/19.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/20.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/20.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/22.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/22.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/23.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/IMG_2854.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/25.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/25.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/26.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/26.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/30.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/30.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/31.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/31.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/32.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/32.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/33.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/33.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/34.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/34.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/35.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/35.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/36.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/36.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/37.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/37.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/38.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/38.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/39.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/39.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/42.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/42.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/43.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/43.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/46.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/46.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/47.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/47.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="custom-masonry-item custom-filter-items ipt-lg-3 5">
+                                            <div class="custom-portfoliobox-1 pq-hover-fade">
+                                                <div class="custom-portfolio-img">
+                                                    
+                                                        <a href="/images/News&MediaImages/48.webp"><img style="width: 150px; height: 130px;" decoding="async" src="/images/News&MediaImages/48.webp" alt=""></a>
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="pq-btn-load-container text-center">
+                                        <a id="showMore" class="pq-button pq-button-flat" href="#">
+                                            <span class="text">Load More</span><svg xmlns="http://www.w3.org/2000/svg" class="pq-svg-arrow" width="34.899"
+                                                height="14.585" viewBox="0 0 34.899 14.585">
+                                                <path
+                                                    d="M.5,6.388c6.609,0,11.487-6.142,11.535-6.2a.6.6,0,0,1,.684-.131.33.33,0,0,1,.176.513A19.589,19.589,0,0,1,4.765,6.388H33.4c.275,0,.5.168.5.376s-.223.376-.5.376H4.765a19.591,19.591,0,0,1,8.128,5.822.331.331,0,0,1-.179.514.6.6,0,0,1-.68-.133c-.048-.062-4.926-6.2-11.535-6.2-.275,0-.5-.168-.5-.376S.223,6.388.5,6.388Z"
+                                                    transform="translate(34.399 14.056) rotate(180)" fill="currentColor" stroke="currentColor"
+                                                    stroke-width="1">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <!-- Footer -->
+    <footer id="pq-footer" >
+        <div class="pq-footer-style-1">
+            <div class="pq-footer-top" >
+                <div class="pq-footer-bottom-list">
+                    <div class="container">
+                        <div class="row">
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-4">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6">
+                            <div class="widget">
+                                <h4 class="footer-title">About Us</h4>
+                                <p>PURE POLYMERS TRADING LLC" formed to serve the petroleum industry and has been serving the
+                                    industry with pride and honour.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4  col-md-6">
+                            <div class="widget" >
+                                <h4 class="footer-title tex">Products</h4>
+                                <div style="display: flex;">
+                                <div class="menu-useful-links-container">
+                                    <ul id="menu-useful-links" class="menu">
+                                        <li class="menu-item">
+                                            <a href="polymers.html">Polymers</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="masterbatch.html">Master Batch</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="fillers.html">Fillers</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="chemical.html">Chemicals</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="petrochemical.html">Petrochemicals</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="menu-useful-links-container ms-4 ">
+                                    <ul id="menu-useful-links" class="menu">
+                                        
+                                        <li class="menu-item">
+                                            <a href="fertilizer.html">Fertilizers</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="lubricants.html">Lubricants</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="agro-commodities.html">Agro Commodities</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="steels.html">Steels</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4  col-md-6">
+                            <div class="widget">
+                                <div class="pq-subscribe">
+                                    <div class="pq-subscribe-details">
+                                        <h4 class="footer-title"><a href="map.html">Contact Us</a></h4>
+                                        <p>
+                                            Unit-04,7th Floors, Rehana plaza Building,Zahraa<br> El Maadi, Cairo Egypt</p>
+                                           
+                                    </div>
+                                    <div class="pq-subscribe-details">
+                                        <li style="list-style: none;">
+                                            <i class="fas fa-phone"></i>
+                                            <span>+20 100-275-8604</span>
+                                        </li>
+                                        <li style="list-style: none;">
+                                            <i class="fas fa-envelope"></i>
+                                            <span>info@purepolymer.co</span>
+                                        </li>
+                                        <li style="list-style: none;">
+                                            <i class="fas fa-envelope"></i>
+                                            <span>sales@purepolymer.co</span>
+                                        </li>
+                                        <li style="list-style: none;">
+                                            <span><img style="margin-left: -2px;" src="/images/Client_image/icons8-browser-20.png">  www.purepolymer.co</span>
+                                        </li>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pq-copyright-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center text-md-start">
+                            <div class="pq-footer-social"> 
+                                ©2025 Pure Polymer. All rights reserved  
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <span class="pq-copyright"><a href="https://vijatshisoftware.com/">Vijatshi Software Pvt Ltd.</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Back To Top -->
+    <div id="back-to-top">
+        <a class="top" id="top" href="#top">
+            <i class="ion-ios-arrow-up"></i>
+        </a>
+    </div>
+    <!-- Back To Top -->
+
+    <!--jquery js-->
+    <script src="js/jquery.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--owl-carousal-->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--progress-bar js-->
+    <script src="js/progressbar.js"></script>
+    <!--isotope js-->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--countTo js-->
+    <script src="js/jquery.countTo.min.js"></script>
+    <!--Maginfic-Popup js-->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Animation JS -->
+    <script src="js/wow.min.js"></script>
+    <!-- Simplebar js -->
+    <script src="js/simplebar.min.js"></script>
+    <!-- Load More js -->
+    <script src="js/load-more.js"></script>
+    <!--custom js-->
+    <script src="js/custom.js"></script>
+    <script>
+        // Get the current page's filename
+        const currentPage = window.location.pathname.split("/").pop();
+        const productpages=["polymers.html", "masterbatch.html","steels.html","lubricants.html","agro-commodities.html","fertilizer.html","fillers.html","petrochemical.html", "chemical.html"]
+    
+        // Select all nav links
+        const navLinks = document.querySelectorAll("nav ul li a");
+    
+        // Loop through links to find the one matching the current page
+        navLinks.forEach(link => {
+            // If the link's href matches the current page, add the 'active' class
+            if (link.getAttribute("href") === currentPage) {
+                link.classList.add("active");
+            }
+            if(productpages.includes(currentPage)&& link.getAttribute("href")==="#"){
+                link.classList.add("active");
+            }
+        });
+    </script>
+
+    
+</body>
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'sg2plmcpnl492384'},{'dcenter':'sg2'},{'cp_id':'9858662'},{'cp_cache':''},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='../../../../img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'></script>
+<!-- Mirrored from peacefulqode.co.in/themes/textica/html/standard.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Oct 2024 09:35:07 GMT -->
+</html>
